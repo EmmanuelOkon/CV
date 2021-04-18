@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#home {
+    background: url(..//assets/ZURI.png) no-repeat center center fixed;
+    display: table !important;
+    height: 100vh !important;
+    position: relative;
+    width: 100% !important;
+    background-size: cover !important;
+}
+
+.hero {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+}
+
+.padding {
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+.profile {
+    padding-top: 100px;
+    width: 50%;
+    padding-left: 100px;
+}
+
+.profile img {
+    border-radius: 20px;
+    width: 50%;
+}
+
+.text-area {
+    background-color: #CD3301;
+    padding: 150px 50px !important;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    color: #FFF;
+}
+
+.text-area h2 {
+    padding-bottom: 30px;
+}
+
+.text-area>.text {
+    line-height: 40px;
+}
+
+#skills {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.ert {
+    padding: 30px 40px;
+    background-color: #FFF;
+}
+
+.html {
+    display: flex;
+    flex-direction: row;
+}
+
+.htmlb {
+    display: flex;
+}
+
+.html-text {
+    width: 50%;
+}
+
+.html-text h4 {
+    font-size: 40px;
+}
+
+.css-img img {
+    width: 100px;
+}
+
+footer {
+    height: 30px !important;
+    width: 100%;
+    background-color: #CD3301;
+    padding: 5% 5% 10% 5%;
+    color: #FFF;
+}
+
+.social {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    justify-self: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.fa:hover {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+@media (max-width: 320px) {
+    footer {
+        height: 70vh !important;
+    }
+}
